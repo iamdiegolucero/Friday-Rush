@@ -7,27 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC81A1591F1805EC00D36711 /* Building1.sks in Resources */ = {isa = PBXBuildFile; fileRef = EC81A1581F1805EC00D36711 /* Building1.sks */; };
 		ECCB43B71F17F16600502B6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCB43B61F17F16600502B6D /* AppDelegate.swift */; };
 		ECCB43B91F17F16600502B6D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECCB43B81F17F16600502B6D /* GameScene.sks */; };
-		ECCB43BB1F17F16600502B6D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECCB43BA1F17F16600502B6D /* Actions.sks */; };
 		ECCB43BD1F17F16600502B6D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCB43BC1F17F16600502B6D /* GameScene.swift */; };
 		ECCB43BF1F17F16600502B6D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCB43BE1F17F16600502B6D /* GameViewController.swift */; };
 		ECCB43C21F17F16600502B6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCB43C01F17F16600502B6D /* Main.storyboard */; };
 		ECCB43C41F17F16600502B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCB43C31F17F16600502B6D /* Assets.xcassets */; };
 		ECCB43C71F17F16600502B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCB43C51F17F16600502B6D /* LaunchScreen.storyboard */; };
+		ECCB45591F1800E900502B6D /* platformIndustrial_035.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCB44661F1800E800502B6D /* platformIndustrial_035.png */; };
+		ECF7E3891F180860004FB7CD /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECF7E3881F180860004FB7CD /* Actions.sks */; };
+		ECF7E38B1F180A39004FB7CD /* Ground.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECF7E38A1F180A39004FB7CD /* Ground.sks */; };
+		ECF7E38D1F181837004FB7CD /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECF7E38C1F181837004FB7CD /* Actions.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC81A1581F1805EC00D36711 /* Building1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Building1.sks; path = ../Building1.sks; sourceTree = "<group>"; };
 		ECCB43B31F17F16600502B6D /* Friday Rush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Friday Rush.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCB43B61F17F16600502B6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECCB43B81F17F16600502B6D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		ECCB43BA1F17F16600502B6D /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		ECCB43BC1F17F16600502B6D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		ECCB43BE1F17F16600502B6D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		ECCB43C11F17F16600502B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECCB43C31F17F16600502B6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECCB43C61F17F16600502B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECCB43C81F17F16600502B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCB44661F1800E800502B6D /* platformIndustrial_035.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = platformIndustrial_035.png; path = kenney_platformerpack_industrial/PNG/Retina/platformIndustrial_035.png; sourceTree = "<group>"; };
+		ECF7E3881F180860004FB7CD /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		ECF7E38A1F180A39004FB7CD /* Ground.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Ground.sks; sourceTree = "<group>"; };
+		ECF7E38C1F181837004FB7CD /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,7 @@
 		ECCB43AA1F17F16600502B6D = {
 			isa = PBXGroup;
 			children = (
+				ECF7E3881F180860004FB7CD /* Actions.sks */,
 				ECCB43B51F17F16600502B6D /* Friday Rush */,
 				ECCB43B41F17F16600502B6D /* Products */,
 			);
@@ -61,12 +70,15 @@
 			isa = PBXGroup;
 			children = (
 				ECCB43B61F17F16600502B6D /* AppDelegate.swift */,
+				EC81A1581F1805EC00D36711 /* Building1.sks */,
 				ECCB43B81F17F16600502B6D /* GameScene.sks */,
-				ECCB43BA1F17F16600502B6D /* Actions.sks */,
+				ECF7E38A1F180A39004FB7CD /* Ground.sks */,
+				ECF7E38C1F181837004FB7CD /* Actions.sks */,
 				ECCB43BC1F17F16600502B6D /* GameScene.swift */,
 				ECCB43BE1F17F16600502B6D /* GameViewController.swift */,
 				ECCB43C01F17F16600502B6D /* Main.storyboard */,
 				ECCB43C31F17F16600502B6D /* Assets.xcassets */,
+				ECCB44661F1800E800502B6D /* platformIndustrial_035.png */,
 				ECCB43C51F17F16600502B6D /* LaunchScreen.storyboard */,
 				ECCB43C81F17F16600502B6D /* Info.plist */,
 			);
@@ -105,6 +117,7 @@
 				TargetAttributes = {
 					ECCB43B21F17F16600502B6D = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TZSCWHTC4F;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,11 +145,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECF7E38B1F180A39004FB7CD /* Ground.sks in Resources */,
+				ECF7E38D1F181837004FB7CD /* Actions.sks in Resources */,
+				ECF7E3891F180860004FB7CD /* Actions.sks in Resources */,
+				ECCB45591F1800E900502B6D /* platformIndustrial_035.png in Resources */,
 				ECCB43C21F17F16600502B6D /* Main.storyboard in Resources */,
 				ECCB43B91F17F16600502B6D /* GameScene.sks in Resources */,
 				ECCB43C41F17F16600502B6D /* Assets.xcassets in Resources */,
 				ECCB43C71F17F16600502B6D /* LaunchScreen.storyboard in Resources */,
-				ECCB43BB1F17F16600502B6D /* Actions.sks in Resources */,
+				EC81A1591F1805EC00D36711 /* Building1.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TZSCWHTC4F;
 				INFOPLIST_FILE = "Friday Rush/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.Friday-Rush";
@@ -286,6 +304,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TZSCWHTC4F;
 				INFOPLIST_FILE = "Friday Rush/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.Friday-Rush";
@@ -313,6 +332,7 @@
 				ECCB43CD1F17F16600502B6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
