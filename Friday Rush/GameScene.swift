@@ -9,6 +9,17 @@
 import SpriteKit
 import GameplayKit
 
+enum state {
+    case running, jumping
+}
+
+switch state {
+case .running:
+    
+default:
+    break
+}
+
 class GameScene: SKScene {
     var ground: SKReferenceNode!
     var building: SKReferenceNode!
@@ -16,5 +27,6 @@ class GameScene: SKScene {
     override func didMove(to view: SKView) {
         ground = self.childNode(withName: "ground") as!SKReferenceNode
         building = self.childNode(withName: "building") as! SKReferenceNode
+        
     }
 }
