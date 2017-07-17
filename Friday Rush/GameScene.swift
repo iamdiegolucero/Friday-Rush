@@ -43,6 +43,16 @@ class GameScene: SKScene {
     }
     
     override func update(_ currentTime: TimeInterval) {
+        /* Called before each frame is rendered */
+        
+        /* Grab current velocity */
+        let velocityY = hero.physicsBody?.velocity.dy ?? 0
+        
+        /* Check and cap vertical velocity */
+        if velocityY > 800 {
+            hero.physicsBody?.velocity.dy = 800
+        }
+        
         /* Process world scrolling */
         scrollWorld()
     }
