@@ -54,8 +54,8 @@ class GameScene: SKScene {
         let velocityY = hero.physicsBody?.velocity.dy ?? 0
         
         /* Check and cap vertical velocity */
-        if velocityY > 800 {
-            hero.physicsBody?.velocity.dy = 800
+        if velocityY > 1000 {
+            hero.physicsBody?.velocity.dy = 1000
         }
         
         /* Process world scrolling */
@@ -65,7 +65,7 @@ class GameScene: SKScene {
     }
     
     let fixedDelta: CFTimeInterval = 1.0 / 60.0 /* 60 FPS */
-    let scrollSpeed: CGFloat = 100
+    let scrollSpeed: CGFloat = 300
     
     
     func scrollWorld() {
@@ -94,7 +94,7 @@ class GameScene: SKScene {
         /* Called when a touch begins */
         
         /* Apply vertical impulse */
-        hero.physicsBody?.applyImpulse(CGVector(dx: 0, dy: 300))
+        hero.physicsBody?.applyImpulse(CGVector(dx: 0, dy: 1000))
     }
     
     
@@ -110,7 +110,7 @@ class GameScene: SKScene {
             let obstaclePosition = obstacleLayer.convert(obstacle.position, to: self)
             
             /* Check if obstacle has left the scene */
-            if obstaclePosition.x <= -26 {
+            if obstaclePosition.x <= -1820 {
                 // 26 is one half the width of an obstacle
                 
                 /* Remove obstacle node from obstacle layer */
@@ -119,7 +119,7 @@ class GameScene: SKScene {
             
         }
         /* Time to add a new obstacle? */
-        if spawnTimer >= 2.5 {
+        if spawnTimer >= 1.0 {
             
             /* Create a new obstacle by copying the source obstacle */
             let newObstacle = obstacleSource.copy() as! SKNode
