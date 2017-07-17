@@ -14,16 +14,18 @@ enum CharacterState {
 }
 
 class GameScene: SKScene {
-    
-    var ground: SKReferenceNode!
-    var building: SKReferenceNode!
+    var ground: SKNode!
+    var building: SKNode!
     var obstacleSource: SKNode!
     var obstacleLayer: SKNode!
-    var charState: CharacterState  = .running {
+    var hero: SKSpriteNode!
+    var charState: CharacterState = .running {
         didSet {
             switch charState {
             case .running:
-                break
+                let move = SKAction(named: "Move")
+                let sequence = SKAction.repeatForever(move!)
+                hero.run(sequence)
             case .jumping:
                 break
             }
@@ -32,10 +34,16 @@ class GameScene: SKScene {
     
     
     override func didMove(to view: SKView) {
-        ground = self.childNode(withName: "ground") as!SKReferenceNode
-        building = self.childNode(withName: "building") as! SKReferenceNode
-
+        ground = self.childNode(withName: "ground")
+        building = self.childNode(withName: "building1")
         obstacleLayer = self.childNode(withName: "obstacleLayer")
+        hero = self.childNode(withName: "hero") as!SKSpriteNode
+        charState = .running
+
+    }
+    
+    override func update(_ currentTime: TimeInterval) {
+        
     }
 }
 

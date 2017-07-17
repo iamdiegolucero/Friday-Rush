@@ -18,7 +18,7 @@
 		ECCB43C71F17F16600502B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCB43C51F17F16600502B6D /* LaunchScreen.storyboard */; };
 		ECCB45591F1800E900502B6D /* platformIndustrial_035.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCB44661F1800E800502B6D /* platformIndustrial_035.png */; };
 		ECF7E3891F180860004FB7CD /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECF7E3881F180860004FB7CD /* Actions.sks */; };
-		ECF7E38B1F180A39004FB7CD /* Ground.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECF7E38A1F180A39004FB7CD /* Ground.sks */; };
+		ECF7E38B1F180A39004FB7CD /* ground.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECF7E38A1F180A39004FB7CD /* ground.sks */; };
 		ECF7E38D1F181837004FB7CD /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECF7E38C1F181837004FB7CD /* Actions.sks */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +36,7 @@
 		ECCB43C81F17F16600502B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECCB44661F1800E800502B6D /* platformIndustrial_035.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = platformIndustrial_035.png; path = kenney_platformerpack_industrial/PNG/Retina/platformIndustrial_035.png; sourceTree = "<group>"; };
 		ECF7E3881F180860004FB7CD /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		ECF7E38A1F180A39004FB7CD /* Ground.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Ground.sks; sourceTree = "<group>"; };
+		ECF7E38A1F180A39004FB7CD /* ground.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ground.sks; sourceTree = "<group>"; };
 		ECF7E38C1F181837004FB7CD /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,10 +73,10 @@
 			children = (
 				ECCB43B61F17F16600502B6D /* AppDelegate.swift */,
 				EC81A1581F1805EC00D36711 /* Building1.sks */,
-				ECCB43B81F17F16600502B6D /* GameScene.sks */,
 				1E36EB411F190FC7002FBCBF /* Obstacles.sks */,
-				ECF7E38A1F180A39004FB7CD /* Ground.sks */,
+				ECF7E38A1F180A39004FB7CD /* ground.sks */,
 				ECF7E38C1F181837004FB7CD /* Actions.sks */,
+				ECCB43B81F17F16600502B6D /* GameScene.sks */,
 				ECCB43BC1F17F16600502B6D /* GameScene.swift */,
 				ECCB43BE1F17F16600502B6D /* GameViewController.swift */,
 				ECCB43C01F17F16600502B6D /* Main.storyboard */,
@@ -148,7 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECF7E38B1F180A39004FB7CD /* Ground.sks in Resources */,
+				ECF7E38B1F180A39004FB7CD /* ground.sks in Resources */,
 				ECF7E38D1F181837004FB7CD /* Actions.sks in Resources */,
 				ECF7E3891F180860004FB7CD /* Actions.sks in Resources */,
 				ECCB45591F1800E900502B6D /* platformIndustrial_035.png in Resources */,
