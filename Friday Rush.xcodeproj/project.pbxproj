@@ -248,7 +248,6 @@
 		ECCB43C41F17F16600502B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCB43C31F17F16600502B6D /* Assets.xcassets */; };
 		ECCB43C71F17F16600502B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCB43C51F17F16600502B6D /* LaunchScreen.storyboard */; };
 		ECCB45591F1800E900502B6D /* platformIndustrial_035.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCB44661F1800E800502B6D /* platformIndustrial_035.png */; };
-		ECF7E3891F180860004FB7CD /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECF7E3881F180860004FB7CD /* Actions.sks */; };
 		ECF7E38B1F180A39004FB7CD /* ground.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECF7E38A1F180A39004FB7CD /* ground.sks */; };
 		ECF7E38D1F181837004FB7CD /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECF7E38C1F181837004FB7CD /* Actions.sks */; };
 /* End PBXBuildFile section */
@@ -497,7 +496,6 @@
 		ECCB43C61F17F16600502B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECCB43C81F17F16600502B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECCB44661F1800E800502B6D /* platformIndustrial_035.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = platformIndustrial_035.png; path = kenney_platformerpack_industrial/PNG/Retina/platformIndustrial_035.png; sourceTree = "<group>"; };
-		ECF7E3881F180860004FB7CD /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		ECF7E38A1F180A39004FB7CD /* ground.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ground.sks; sourceTree = "<group>"; };
 		ECF7E38C1F181837004FB7CD /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -817,7 +815,6 @@
 		ECCB43AA1F17F16600502B6D = {
 			isa = PBXGroup;
 			children = (
-				ECF7E3881F180860004FB7CD /* Actions.sks */,
 				ECCB43B51F17F16600502B6D /* Friday Rush */,
 				ECCB43B41F17F16600502B6D /* Products */,
 			);
@@ -948,7 +945,6 @@
 				1E36ED111F1D1833002FBCBF /* Preview_KenneyNL.png in Resources */,
 				1E36EC8B1F1D1833002FBCBF /* foliagePack_leaves_023.png in Resources */,
 				1E36ECD31F1D1833002FBCBF /* foliagePack_049.png in Resources */,
-				ECF7E3891F180860004FB7CD /* Actions.sks in Resources */,
 				1E36ECCD1F1D1833002FBCBF /* foliagePack_043.png in Resources */,
 				1E36ECE51F1D1833002FBCBF /* foliagePack_leaves_005.png in Resources */,
 				1E36EC961F1D1833002FBCBF /* foliagePack_leaves_034.png in Resources */,
