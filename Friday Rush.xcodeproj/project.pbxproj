@@ -836,11 +836,7 @@
 			children = (
 				ECCB43B61F17F16600502B6D /* AppDelegate.swift */,
 				EC81A1581F1805EC00D36711 /* Building1.sks */,
-<<<<<<< HEAD
 				1E36EB431F1D0FEF002FBCBF /* Building2.sks */,
-				ECCB43B81F17F16600502B6D /* GameScene.sks */,
-=======
->>>>>>> 6e9eb5ccf92087f7ee5c2e570f7b297f8e4b0e7b
 				1E36EB411F190FC7002FBCBF /* Obstacles.sks */,
 				ECF7E38A1F180A39004FB7CD /* ground.sks */,
 				ECF7E38C1F181837004FB7CD /* Actions.sks */,
@@ -917,7 +913,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				1E36EC561F1D1833002FBCBF /* foliagePack_032.png in Resources */,
 				1E36ECE81F1D1833002FBCBF /* foliagePack_leaves_008.png in Resources */,
 				1E36EC3B1F1D1833002FBCBF /* foliagePack_005.png in Resources */,
@@ -926,7 +921,6 @@
 				1E36EC8D1F1D1833002FBCBF /* foliagePack_leaves_025.png in Resources */,
 				1E36ECB71F1D1833002FBCBF /* foliagePack_021.png in Resources */,
 				1E36ECED1F1D1833002FBCBF /* foliagePack_leaves_013.png in Resources */,
-				ECF7E38B1F180A39004FB7CD /* Ground.sks in Resources */,
 				1E36ECE91F1D1833002FBCBF /* foliagePack_leaves_009.png in Resources */,
 				1E36EB441F1D0FEF002FBCBF /* Building2.sks in Resources */,
 				1E36EC861F1D1833002FBCBF /* foliagePack_leaves_018.png in Resources */,
@@ -937,9 +931,7 @@
 				1E36ECE11F1D1833002FBCBF /* foliagePack_leaves_001.png in Resources */,
 				1E36ECFE1F1D1833002FBCBF /* foliagePack_leaves_030.png in Resources */,
 				1E36EC951F1D1833002FBCBF /* foliagePack_leaves_033.png in Resources */,
-=======
 				ECF7E38B1F180A39004FB7CD /* ground.sks in Resources */,
->>>>>>> 6e9eb5ccf92087f7ee5c2e570f7b297f8e4b0e7b
 				ECF7E38D1F181837004FB7CD /* Actions.sks in Resources */,
 				1E36EC811F1D1833002FBCBF /* foliagePack_leaves_013.png in Resources */,
 				1E36ECCB1F1D1833002FBCBF /* foliagePack_041.png in Resources */,
