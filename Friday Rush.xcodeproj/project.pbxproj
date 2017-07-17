@@ -185,7 +185,6 @@
 				1E36EC5B1F1D1833002FBCBF /* foliagePack_037.png in Resources */,
 				1E36ED101F1D1833002FBCBF /* Preview.png in Resources */,
 				ECCB45591F1800E900502B6D /* platformIndustrial_035.png in Resources */,
-				1E36ED011F1D1833002FBCBF /* foliagePack_leaves_033.png in Resources */,
 				ECCB43C21F17F16600502B6D /* Main.storyboard in Resources */,
 				ECCB43B91F17F16600502B6D /* GameScene.sks in Resources */,
 				1E36EB421F190FC7002FBCBF /* Obstacles.sks in Resources */,
