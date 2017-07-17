@@ -14,7 +14,7 @@ enum CharacterState {
 }
 
 class GameScene: SKScene {
-    var ground: SKNode!
+    var scrollLayer: SKNode!
     var building: SKNode!
     var obstacleSource: SKNode!
     var obstacleLayer: SKNode!
@@ -34,7 +34,7 @@ class GameScene: SKScene {
     
     
     override func didMove(to view: SKView) {
-        ground = self.childNode(withName: "ground")
+        scrollLayer = self.childNode(withName: "scrollLayer")
         building = self.childNode(withName: "building1")
         obstacleLayer = self.childNode(withName: "obstacleLayer")
         hero = self.childNode(withName: "hero") as!SKSpriteNode
@@ -43,7 +43,32 @@ class GameScene: SKScene {
     }
     
     override func update(_ currentTime: TimeInterval) {
+        /* Process world scrolling */
+        scrollWorld()
+    }
+    
+    let fixedDelta: CFTimeInterval = 1.0 / 60.0 /* 60 FPS */
+    let scrollSpeed: CGFloat = 100
+    
+    func scrollWorld() {
+        /* Scroll World */
+        scrollLayer.position.x -= scrollSpeed * CGFloat(fixedDelta)
+        /* Loop through scroll layer nodes */
+        for ground in scrollLayer.children as! [SKReferenceNode] {
         
+            /* Get ground node position, convert node position to scene space */
+            let groundPosition = scrollLayer.convert(ground.position, to: self)
+            
+            /* Check if ground sprite has left the scene */
+            if groundPosition.x <= -1820 / 2 {
+                
+                /* Reposition ground sprite to the second starting position */
+                let newPosition = CGPoint(x: (self.size.width / 2) + 720, y: groundPosition.y)
+                
+                /* Convert new node position back to scroll layer space */
+                ground.position = self.convert(newPosition, to: scrollLayer)
+            }
+        }
     }
 }
 
