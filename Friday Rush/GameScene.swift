@@ -37,7 +37,7 @@ class GameScene: SKScene {
         scrollLayer = self.childNode(withName: "scrollLayer")
         building = self.childNode(withName: "building1")
         obstacleLayer = self.childNode(withName: "obstacleLayer")
-        hero = self.childNode(withName: "hero") as!SKSpriteNode
+        hero = self.childNode(withName: "//hero") as!SKSpriteNode
         charState = .running
 
     }
@@ -69,6 +69,13 @@ class GameScene: SKScene {
                 ground.position = self.convert(newPosition, to: scrollLayer)
             }
         }
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        /* Called when a touch begins */
+        
+        /* Apply vertical impulse */
+        hero.physicsBody?.applyImpulse(CGVector(dx: 0, dy: 300))
     }
 }
 
